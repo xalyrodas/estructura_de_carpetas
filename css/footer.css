@@ -1,0 +1,124 @@
+footer {
+    border-top: 2px solid rgb(198, 100, 20);
+    padding-top: 1rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    grid-column: 1/4;
+}
+footer .creadores {
+    height: 20rem;
+    background-color:  rgba(220, 220, 220, 0.573);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer .creadores .names {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+footer .creadores .names .cr-1 {
+    color: rgb(5, 159, 100);
+}
+footer .creadores .cr_center_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .creadores .cr_center_2 .gl_circulo {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .creadores .cr_center_2 .gl_circulo img{
+    border: 1.5rem solid rgb(5, 159, 100);
+    padding: 1rem;
+    width: 90%;
+    height: 90%;
+    border-radius: 8rem;
+    object-fit: cover;
+}
+footer .Dt_perso_gl .gl_grado{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+footer .Dt_perso_gl .gl_grado h1 {
+    margin-top: 2rem;
+}
+footer .Dt_perso_gl .gl_grado .gl_grado_grade{
+    color: rgb(5, 159, 100);
+}
+footer .Dt_perso_gl .gl_grado_2 {   
+    width: 26.8rem;
+    padding-bottom: 1rem;   
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: rgb(5, 159, 100);
+    border-bottom: 0.5rem solid rgb(5, 159, 100);
+}
+footer .imp_info {
+    height: 12rem;
+    background-color:  rgb(5, 159, 100); 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .imp_info .gl_herramientas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .imp_info .gl_herramientas .gl_herr_opc {
+    height: 6rem;
+    width: 20rem;
+    border-radius: 3.2rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+footer .imp_info .gl_herramientas .gl_herr_opc img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+footer .imp_info .gl_about{
+    width: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .imp_info .gl_about h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 3rem;
+    color: aliceblue;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 4rem;
+    border-bottom: 0.5rem solid aliceblue;
+}
+footer .imp_info .gl_about .cr-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+footer .imp_info .gl_about .cr-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: aliceblue;
+}

@@ -1,0 +1,69 @@
+.menuPrincipal {
+    width: 90%;
+    height: 90%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+   
+}
+.infomenu {
+   height: 40rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border: 3px solid mediumaquamarine;
+    border-radius: 1rem;
+    
+}
+ .infomenu .menu {
+    display: grid;
+    grid-template-rows: 5,1fr;
+    gap: 4rem;
+    font-size: 2rem;
+
+}
+.infomenu .menu .menu-opt-1 {
+    background-color:rgb(0, 150, 93);
+    width:20rem ;
+    border: 2px solid rgb(0, 150, 93);
+    text-decoration: none;
+    border-radius: 1rem;
+    color: white;
+   
+}
+ .infomenu .menu .menu-opt-2 {
+    background-color:rgb(0, 150, 93);
+    width: 20rem;
+    border: 2px solid rgb(0, 150, 93);
+    text-decoration:none ;
+    border-radius: 1rem;
+    color: white;
+}
+.infomenu .menu .menu-opt-3 {
+    background-color:rgb(0, 150, 93);
+   width: 20rem;
+    border: 2px solid rgb(0, 150, 93);
+  text-decoration: none;
+  border-radius: 1rem;
+  color: white;
+}
+ .infomenu .menu .menu-opt-4 {
+    background-color:rgb(0, 150, 93);
+  width: 20rem;
+    border: 2px solid rgb(0, 150, 93);
+   text-decoration: none;
+   border-radius: 1rem;
+   color: white;
+}
+.infomenu .menu .menu-opt-5 {
+    background-color:rgb(0, 150, 93);
+    width: 20rem;
+    border: 2px solid rgb(0, 150, 93);
+   text-decoration: none;
+   border-radius: 1rem;
+   color: white;
+}
+.menuPrincipal .infomenu .menu a {
+   margin-left: 5rem;
+   text-decoration: none;
+   color: white;
+}

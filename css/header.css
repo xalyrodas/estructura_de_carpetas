@@ -1,0 +1,119 @@
+header {
+    height: 20rem;
+    margin: auto;
+    border-bottom: 2px solid rgb(198, 100, 20);
+    grid-column: 1/4;
+}
+header .di-h-1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 12rem;
+}
+header .logo {
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo .l-img {
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(147, 237, 144);
+}
+header .logo .l-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .logo h2 {
+    width: 17rem;
+    height: 6rem;
+    border-bottom: 3px solid rgb(5, 159, 100);
+    border-top: 3px solid rgb(5, 159, 100);
+    border-radius: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2.2rem;
+}
+header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .title h1 {
+    width: 32rem;
+    height: 8rem;
+    font-size: 3rem;
+    border-bottom: 2px solid rgb(198, 100, 20);
+    text-align: center;
+    border-radius: 3rem;
+}
+header .logo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo-2 .l-img-2 {
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(147, 237, 144);
+}
+header .logo-2 .l-img-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .logo-2 h2 {
+    width: 17rem;
+    height: 6rem;
+    border-bottom: 3px solid rgb(5, 159, 100);
+    border-top: 3px solid rgb(5, 159, 100);
+    border-radius: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2.2rem;
+
+}
+header .men-n-date {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) 35rem;
+    gap: 20px;
+}
+header .men-n-date .cuadrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 1.8rem;
+    color: black;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-weight: 600;
+} 
+header .cuadrito:hover{
+    color:  rgb(5, 159, 100);
+}
+header .Btn-cll-now {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header .Btn-cll-now h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: aquamarine;
+    border-radius: 2.2rem;
+}
+header .logo2:hover {
+    background-color:  rgb(5, 159, 100);
+    cursor: pointer;
+    transition: 1s;
+}
